@@ -23,6 +23,7 @@
 ### Setting Alias Busybox Commands
 ###
 
+touch="fbi/bin/busybox touch"
 mount="/fbi/bin/busybox mount"
 echo="/fbi/bin/busybox echo"
 mkdir="/fbi/bin/busybox mkdir"
@@ -44,6 +45,10 @@ $echo "*******"
 $echo
 
 cd /
+
+# Allowing ssh access
+
+$touch ssh
 
 # Remount root FS writable
 # Create mounting points to work
