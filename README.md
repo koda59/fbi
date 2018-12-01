@@ -18,7 +18,7 @@ In this case, you just have to put your own script in your_files_here and modify
 - Unzip the release
 - Add you own scripts in your_files_here directory
 - Modify custom.sh to call you own scripts  
-- Just copy files (cmdline.txt, ssh, README.md) and directories (fbi, your_files_here) over boot partition 
+- Just copy files (cmdline.txt, README.md) and directories (fbi, your_files_here) over boot partition 
 - Confirm that you want to replace cmdline.txt during copy
 - Eject SD Card from your computer
 - Insert SD card in your PI and power on
