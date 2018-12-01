@@ -23,7 +23,7 @@ In this case, you just have to put your own script in your_files_here and modify
 - Eject SD Card from your computer
 - Insert SD card in your PI and power on
 
-**Note :**
+**Notes :**
 
 By default, custom.sh just write a fbi.txt on /home/pi as a fingerprint.
 
