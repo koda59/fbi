@@ -46,10 +46,6 @@ $echo
 
 cd /
 
-# Allowing ssh access
-
-$touch ssh
-
 # Remount root FS writable
 # Create mounting points to work
 # Create device node to ext4 partition
@@ -67,6 +63,10 @@ $mount -t ext4 /tmp/mmcblk0p2 /new_root
 #######################################
 #     REAL WORK to custom Raspbian    #
 #######################################
+
+# Allowing ssh access
+
+$touch ssh
 
 #
 # Copy fbi script to execute at normal boot and set it to rc.local
