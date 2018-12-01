@@ -1,4 +1,4 @@
-**fbi-usb**
+**fbi**
 First Boot Initialization with a fresh Raspbian.
 
 This repository contains code for tuning Raspbian directly after imaging without any access to raspberry or typing any command.
